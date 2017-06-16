@@ -7,68 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84E5B3141EF3D5F900EA695F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5B3131EF3D5F900EA695F /* AppDelegate.swift */; };
-		84E5B3161EF3D5F900EA695F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5B3151EF3D5F900EA695F /* RootViewController.swift */; };
-		84E5B3181EF3D5F900EA695F /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5B3171EF3D5F900EA695F /* DataViewController.swift */; };
-		84E5B31A1EF3D5F900EA695F /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5B3191EF3D5F900EA695F /* ModelController.swift */; };
-		84E5B31D1EF3D5F900EA695F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E5B31B1EF3D5F900EA695F /* Main.storyboard */; };
-		84E5B31F1EF3D5F900EA695F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E5B31E1EF3D5F900EA695F /* Assets.xcassets */; };
-		84E5B3221EF3D5F900EA695F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E5B3201EF3D5F900EA695F /* LaunchScreen.storyboard */; };
-		84E5B32D1EF3D5F900EA695F /* MixMe_oneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5B32C1EF3D5F900EA695F /* MixMe_oneTests.swift */; };
-		84E5B3381EF3D5F900EA695F /* MixMe_oneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5B3371EF3D5F900EA695F /* MixMe_oneUITests.swift */; };
+		84F20CE31EF3FB3400A9466D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F20CE21EF3FB3400A9466D /* AppDelegate.swift */; };
+		84F20CE51EF3FB3400A9466D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F20CE41EF3FB3400A9466D /* ViewController.swift */; };
+		84F20CE81EF3FB3400A9466D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F20CE61EF3FB3400A9466D /* Main.storyboard */; };
+		84F20CEA1EF3FB3400A9466D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F20CE91EF3FB3400A9466D /* Assets.xcassets */; };
+		84F20CED1EF3FB3400A9466D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F20CEB1EF3FB3400A9466D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		84E5B3291EF3D5F900EA695F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84E5B3081EF3D5F900EA695F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84E5B30F1EF3D5F900EA695F;
-			remoteInfo = MixMe.one;
-		};
-		84E5B3341EF3D5F900EA695F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84E5B3081EF3D5F900EA695F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84E5B30F1EF3D5F900EA695F;
-			remoteInfo = MixMe.one;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		84E5B3101EF3D5F900EA695F /* MixMe.one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixMe.one.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84E5B3131EF3D5F900EA695F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84E5B3151EF3D5F900EA695F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		84E5B3171EF3D5F900EA695F /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		84E5B3191EF3D5F900EA695F /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		84E5B31C1EF3D5F900EA695F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84E5B31E1EF3D5F900EA695F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84E5B3211EF3D5F900EA695F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84E5B3231EF3D5F900EA695F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84E5B3281EF3D5F900EA695F /* MixMe.oneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixMe.oneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84E5B32C1EF3D5F900EA695F /* MixMe_oneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixMe_oneTests.swift; sourceTree = "<group>"; };
-		84E5B32E1EF3D5F900EA695F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84E5B3331EF3D5F900EA695F /* MixMe.oneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixMe.oneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84E5B3371EF3D5F900EA695F /* MixMe_oneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixMe_oneUITests.swift; sourceTree = "<group>"; };
-		84E5B3391EF3D5F900EA695F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F20CDF1EF3FB3400A9466D /* MixMe.one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixMe.one.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F20CE21EF3FB3400A9466D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F20CE41EF3FB3400A9466D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84F20CE71EF3FB3400A9466D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F20CE91EF3FB3400A9466D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F20CEC1EF3FB3400A9466D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F20CEE1EF3FB3400A9466D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84E5B30D1EF3D5F900EA695F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84E5B3251EF3D5F900EA695F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84E5B3301EF3D5F900EA695F /* Frameworks */ = {
+		84F20CDC1EF3FB3400A9466D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,69 +35,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84E5B3071EF3D5F900EA695F = {
+		84F20CD61EF3FB3300A9466D = {
 			isa = PBXGroup;
 			children = (
-				84E5B3121EF3D5F900EA695F /* MixMe.one */,
-				84E5B32B1EF3D5F900EA695F /* MixMe.oneTests */,
-				84E5B3361EF3D5F900EA695F /* MixMe.oneUITests */,
-				84E5B3111EF3D5F900EA695F /* Products */,
+				84F20CE11EF3FB3400A9466D /* MixMe.one */,
+				84F20CE01EF3FB3400A9466D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		84E5B3111EF3D5F900EA695F /* Products */ = {
+		84F20CE01EF3FB3400A9466D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84E5B3101EF3D5F900EA695F /* MixMe.one.app */,
-				84E5B3281EF3D5F900EA695F /* MixMe.oneTests.xctest */,
-				84E5B3331EF3D5F900EA695F /* MixMe.oneUITests.xctest */,
+				84F20CDF1EF3FB3400A9466D /* MixMe.one.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84E5B3121EF3D5F900EA695F /* MixMe.one */ = {
+		84F20CE11EF3FB3400A9466D /* MixMe.one */ = {
 			isa = PBXGroup;
 			children = (
-				84E5B3131EF3D5F900EA695F /* AppDelegate.swift */,
-				84E5B3151EF3D5F900EA695F /* RootViewController.swift */,
-				84E5B3171EF3D5F900EA695F /* DataViewController.swift */,
-				84E5B3191EF3D5F900EA695F /* ModelController.swift */,
-				84E5B31B1EF3D5F900EA695F /* Main.storyboard */,
-				84E5B31E1EF3D5F900EA695F /* Assets.xcassets */,
-				84E5B3201EF3D5F900EA695F /* LaunchScreen.storyboard */,
-				84E5B3231EF3D5F900EA695F /* Info.plist */,
+				84F20CE21EF3FB3400A9466D /* AppDelegate.swift */,
+				84F20CE41EF3FB3400A9466D /* ViewController.swift */,
+				84F20CE61EF3FB3400A9466D /* Main.storyboard */,
+				84F20CE91EF3FB3400A9466D /* Assets.xcassets */,
+				84F20CEB1EF3FB3400A9466D /* LaunchScreen.storyboard */,
+				84F20CEE1EF3FB3400A9466D /* Info.plist */,
 			);
 			path = MixMe.one;
-			sourceTree = "<group>";
-		};
-		84E5B32B1EF3D5F900EA695F /* MixMe.oneTests */ = {
-			isa = PBXGroup;
-			children = (
-				84E5B32C1EF3D5F900EA695F /* MixMe_oneTests.swift */,
-				84E5B32E1EF3D5F900EA695F /* Info.plist */,
-			);
-			path = MixMe.oneTests;
-			sourceTree = "<group>";
-		};
-		84E5B3361EF3D5F900EA695F /* MixMe.oneUITests */ = {
-			isa = PBXGroup;
-			children = (
-				84E5B3371EF3D5F900EA695F /* MixMe_oneUITests.swift */,
-				84E5B3391EF3D5F900EA695F /* Info.plist */,
-			);
-			path = MixMe.oneUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84E5B30F1EF3D5F900EA695F /* MixMe.one */ = {
+		84F20CDE1EF3FB3400A9466D /* MixMe.one */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84E5B33C1EF3D5F900EA695F /* Build configuration list for PBXNativeTarget "MixMe.one" */;
+			buildConfigurationList = 84F20CF11EF3FB3400A9466D /* Build configuration list for PBXNativeTarget "MixMe.one" */;
 			buildPhases = (
-				84E5B30C1EF3D5F900EA695F /* Sources */,
-				84E5B30D1EF3D5F900EA695F /* Frameworks */,
-				84E5B30E1EF3D5F900EA695F /* Resources */,
+				84F20CDB1EF3FB3400A9466D /* Sources */,
+				84F20CDC1EF3FB3400A9466D /* Frameworks */,
+				84F20CDD1EF3FB3400A9466D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,69 +81,25 @@
 			);
 			name = MixMe.one;
 			productName = MixMe.one;
-			productReference = 84E5B3101EF3D5F900EA695F /* MixMe.one.app */;
+			productReference = 84F20CDF1EF3FB3400A9466D /* MixMe.one.app */;
 			productType = "com.apple.product-type.application";
-		};
-		84E5B3271EF3D5F900EA695F /* MixMe.oneTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84E5B33F1EF3D5F900EA695F /* Build configuration list for PBXNativeTarget "MixMe.oneTests" */;
-			buildPhases = (
-				84E5B3241EF3D5F900EA695F /* Sources */,
-				84E5B3251EF3D5F900EA695F /* Frameworks */,
-				84E5B3261EF3D5F900EA695F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84E5B32A1EF3D5F900EA695F /* PBXTargetDependency */,
-			);
-			name = MixMe.oneTests;
-			productName = MixMe.oneTests;
-			productReference = 84E5B3281EF3D5F900EA695F /* MixMe.oneTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		84E5B3321EF3D5F900EA695F /* MixMe.oneUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84E5B3421EF3D5F900EA695F /* Build configuration list for PBXNativeTarget "MixMe.oneUITests" */;
-			buildPhases = (
-				84E5B32F1EF3D5F900EA695F /* Sources */,
-				84E5B3301EF3D5F900EA695F /* Frameworks */,
-				84E5B3311EF3D5F900EA695F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84E5B3351EF3D5F900EA695F /* PBXTargetDependency */,
-			);
-			name = MixMe.oneUITests;
-			productName = MixMe.oneUITests;
-			productReference = 84E5B3331EF3D5F900EA695F /* MixMe.oneUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84E5B3081EF3D5F900EA695F /* Project object */ = {
+		84F20CD71EF3FB3300A9466D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = CockTinder;
+				ORGANIZATIONNAME = MixMe.one;
 				TargetAttributes = {
-					84E5B30F1EF3D5F900EA695F = {
+					84F20CDE1EF3FB3400A9466D = {
 						CreatedOnToolsVersion = 9.0;
-					};
-					84E5B3271EF3D5F900EA695F = {
-						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 84E5B30F1EF3D5F900EA695F;
-					};
-					84E5B3321EF3D5F900EA695F = {
-						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 84E5B30F1EF3D5F900EA695F;
 					};
 				};
 			};
-			buildConfigurationList = 84E5B30B1EF3D5F900EA695F /* Build configuration list for PBXProject "MixMe.one" */;
+			buildConfigurationList = 84F20CDA1EF3FB3300A9466D /* Build configuration list for PBXProject "MixMe.one" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,101 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 84E5B3071EF3D5F900EA695F;
-			productRefGroup = 84E5B3111EF3D5F900EA695F /* Products */;
+			mainGroup = 84F20CD61EF3FB3300A9466D;
+			productRefGroup = 84F20CE01EF3FB3400A9466D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84E5B30F1EF3D5F900EA695F /* MixMe.one */,
-				84E5B3271EF3D5F900EA695F /* MixMe.oneTests */,
-				84E5B3321EF3D5F900EA695F /* MixMe.oneUITests */,
+				84F20CDE1EF3FB3400A9466D /* MixMe.one */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84E5B30E1EF3D5F900EA695F /* Resources */ = {
+		84F20CDD1EF3FB3400A9466D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E5B3221EF3D5F900EA695F /* LaunchScreen.storyboard in Resources */,
-				84E5B31F1EF3D5F900EA695F /* Assets.xcassets in Resources */,
-				84E5B31D1EF3D5F900EA695F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84E5B3261EF3D5F900EA695F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84E5B3311EF3D5F900EA695F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				84F20CED1EF3FB3400A9466D /* LaunchScreen.storyboard in Resources */,
+				84F20CEA1EF3FB3400A9466D /* Assets.xcassets in Resources */,
+				84F20CE81EF3FB3400A9466D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84E5B30C1EF3D5F900EA695F /* Sources */ = {
+		84F20CDB1EF3FB3400A9466D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E5B3161EF3D5F900EA695F /* RootViewController.swift in Sources */,
-				84E5B31A1EF3D5F900EA695F /* ModelController.swift in Sources */,
-				84E5B3181EF3D5F900EA695F /* DataViewController.swift in Sources */,
-				84E5B3141EF3D5F900EA695F /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84E5B3241EF3D5F900EA695F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84E5B32D1EF3D5F900EA695F /* MixMe_oneTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84E5B32F1EF3D5F900EA695F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				84E5B3381EF3D5F900EA695F /* MixMe_oneUITests.swift in Sources */,
+				84F20CE51EF3FB3400A9466D /* ViewController.swift in Sources */,
+				84F20CE31EF3FB3400A9466D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		84E5B32A1EF3D5F900EA695F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84E5B30F1EF3D5F900EA695F /* MixMe.one */;
-			targetProxy = 84E5B3291EF3D5F900EA695F /* PBXContainerItemProxy */;
-		};
-		84E5B3351EF3D5F900EA695F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84E5B30F1EF3D5F900EA695F /* MixMe.one */;
-			targetProxy = 84E5B3341EF3D5F900EA695F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		84E5B31B1EF3D5F900EA695F /* Main.storyboard */ = {
+		84F20CE61EF3FB3400A9466D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84E5B31C1EF3D5F900EA695F /* Base */,
+				84F20CE71EF3FB3400A9466D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		84E5B3201EF3D5F900EA695F /* LaunchScreen.storyboard */ = {
+		84F20CEB1EF3FB3400A9466D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84E5B3211EF3D5F900EA695F /* Base */,
+				84F20CEC1EF3FB3400A9466D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		84E5B33A1EF3D5F900EA695F /* Debug */ = {
+		84F20CEF1EF3FB3400A9466D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		84E5B33B1EF3D5F900EA695F /* Release */ = {
+		84F20CF01EF3FB3400A9466D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -423,7 +265,7 @@
 			};
 			name = Release;
 		};
-		84E5B33D1EF3D5F900EA695F /* Debug */ = {
+		84F20CF21EF3FB3400A9466D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -438,7 +280,7 @@
 			};
 			name = Debug;
 		};
-		84E5B33E1EF3D5F900EA695F /* Release */ = {
+		84F20CF31EF3FB3400A9466D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -450,108 +292,30 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		84E5B3401EF3D5F900EA695F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = T58RJ7QENS;
-				INFOPLIST_FILE = MixMe.oneTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "camp.code-design.MixMe-oneTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixMe.one.app/MixMe.one";
-			};
-			name = Debug;
-		};
-		84E5B3411EF3D5F900EA695F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = T58RJ7QENS;
-				INFOPLIST_FILE = MixMe.oneTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "camp.code-design.MixMe-oneTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MixMe.one.app/MixMe.one";
-			};
-			name = Release;
-		};
-		84E5B3431EF3D5F900EA695F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = T58RJ7QENS;
-				INFOPLIST_FILE = MixMe.oneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "camp.code-design.MixMe-oneUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MixMe.one;
-			};
-			name = Debug;
-		};
-		84E5B3441EF3D5F900EA695F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = T58RJ7QENS;
-				INFOPLIST_FILE = MixMe.oneUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "camp.code-design.MixMe-oneUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MixMe.one;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84E5B30B1EF3D5F900EA695F /* Build configuration list for PBXProject "MixMe.one" */ = {
+		84F20CDA1EF3FB3300A9466D /* Build configuration list for PBXProject "MixMe.one" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84E5B33A1EF3D5F900EA695F /* Debug */,
-				84E5B33B1EF3D5F900EA695F /* Release */,
+				84F20CEF1EF3FB3400A9466D /* Debug */,
+				84F20CF01EF3FB3400A9466D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84E5B33C1EF3D5F900EA695F /* Build configuration list for PBXNativeTarget "MixMe.one" */ = {
+		84F20CF11EF3FB3400A9466D /* Build configuration list for PBXNativeTarget "MixMe.one" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84E5B33D1EF3D5F900EA695F /* Debug */,
-				84E5B33E1EF3D5F900EA695F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		84E5B33F1EF3D5F900EA695F /* Build configuration list for PBXNativeTarget "MixMe.oneTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84E5B3401EF3D5F900EA695F /* Debug */,
-				84E5B3411EF3D5F900EA695F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		84E5B3421EF3D5F900EA695F /* Build configuration list for PBXNativeTarget "MixMe.oneUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84E5B3431EF3D5F900EA695F /* Debug */,
-				84E5B3441EF3D5F900EA695F /* Release */,
+				84F20CF21EF3FB3400A9466D /* Debug */,
+				84F20CF31EF3FB3400A9466D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 84E5B3081EF3D5F900EA695F /* Project object */;
+	rootObject = 84F20CD71EF3FB3300A9466D /* Project object */;
 }

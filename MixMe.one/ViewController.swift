@@ -1,18 +1,14 @@
 //
-//  DataViewController.swift
+//  ViewController.swift
 //  MixMe.one
 //
 //  Created by admin on 16.06.17.
-//  Copyright © 2017 CockTinder. All rights reserved.
+//  Copyright © 2017 MixMe.one. All rights reserved.
 //
 
 import UIKit
 
-class DataViewController: UIViewController {
-
-    @IBOutlet weak var dataLabel: UILabel!
-    var dataObject: String = ""
-
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,11 +18,6 @@ class DataViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.dataLabel!.text = dataObject
     }
 
 
