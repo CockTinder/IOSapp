@@ -8,11 +8,21 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UISearchBarDelegate {
 
+    @IBOutlet weak var SearchBar: UISearchBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        SearchBar.delegate = self
+        
+    }
+    
+    //MARK: Search bar
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        //MARK: hide Keyboard
+        SearchBar.resignFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
